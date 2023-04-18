@@ -93,12 +93,16 @@ section.profile {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+  .icons-list div, .other-tools-head div {
+    display: flex;
+    gap: .5rem;
+  }
   .icons-list i, .other-tools i {
     margin-right: 1rem;
     font-size: 1.3rem;
   }
   .other-tools {
-    margin-top: 1.1rem;
+    margin-top: 1.4rem;
     border: 1px solid grey;
     padding: .5rem;
     margin-bottom: 1.1rem;
@@ -162,10 +166,9 @@ section.profile {
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 1rem;
-      padding-left: 2rem;
     }
     .projects-media img {
-      width: 22rem;
-      height: 24rem;
+      width: 25rem;
+      height: 26rem;
     }
   }
