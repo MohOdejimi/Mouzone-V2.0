@@ -38,10 +38,10 @@ section.profile {
   margin-bottom: 1rem;
 }
   section img {
-   width: 10em;
+   width: 8em;
    height: auto;
    border: 1px solid current-color;
-   border-radius: 3px;
+   border-radius: 5px;
    margin-top: 2rem;
 }
   p span {
