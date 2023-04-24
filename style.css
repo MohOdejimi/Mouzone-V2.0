@@ -37,12 +37,15 @@ section.profile {
   border-bottom: 0.01px solid grey;
   margin-bottom: 1rem;
 }
-  section img {
-   width: 8em;
-   height: auto;
-   border: 1px solid current-color;
-   border-radius: 5px;
-   margin-top: 2rem;
+section img {
+  width: 8em;
+  height: auto;
+  border: 1px solid current-color;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.profile p {
+  margin-top: .8rem;
 }
   p span {
     display: inline-block;
@@ -66,14 +69,10 @@ section.profile {
    padding-bottom: 0.5rem;
    }
   .article p{
-    margin-top: 1rem;
-    display: inline-block;
-    color: grey;
-    font-size: 1rem;
+  margin-top: 1rem;
+  color: grey;
+  line-height: 1.7em;
   }
-  iframe{
-    margin-top: 2.5rem;
-    }
  .tools {
     color: grey;
     padding: 2rem;
@@ -84,6 +83,7 @@ section.profile {
   }
   .tools p {
     margin-top: .7rem;
+    line-height: 1.7rem;
   }
   .icons-list {
     margin-top: 1rem;
@@ -102,10 +102,11 @@ section.profile {
   .other-tools {
     margin-top: 1.4rem;
     border: 1px solid grey;
+    border-radius: 5px;
     padding: .5rem;
     margin-bottom: 1.1rem;
   }
-  .other-tools-head {
+.other-tools-head {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,6 +123,7 @@ section.profile {
   section.projects p{
     margin-top: 0.7rem;
     color: grey;
+    line-height: 1.7rem;
   }
   .projects-media img {
     width: 20rem;
@@ -129,8 +131,7 @@ section.profile {
   }
    .projects-media h3 {
      color: white;
-    
-   }
+  }
   .projects-media a {
     color: white;
     text-decoration: none;
