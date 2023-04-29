@@ -19,7 +19,7 @@ header ul{
   gap: 0.7rem;
   margin-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: thin solid grey;
+  border-bottom: .1px solid grey;
 }
 header ul li a {
   text-decoration: none;
@@ -35,7 +35,6 @@ section.profile {
   padding: 2rem;
   margin: 0;
   border-bottom: 0.01px solid grey;
-  margin-bottom: 1rem;
 }
 section img {
   width: 8em;
@@ -58,30 +57,58 @@ section img {
   /*about me*/
   .article{
    padding: 2rem;
-   position: relative;
+  }
+  #right, #down {
+    padding-right: 1ch;
+  }
+  #down {
+    display: none;
+  }
+  .article h4 {
+    color: #f2aa4c;
+    font-size: .9rem;
+    margin-top: -1rem;
+    margin-bottom: .2rem;
+  }
+  .navigation {
+    padding: 1rem;
+    color: grey;
+    display: none;
+    border-bottom: thin solid grey;
+  }
+  .navigation li {
+    list-style-type: '~/';
+    padding-inline-start: 1ch;
+  }
+  .navigation li a {
+    text-decoration: none;
+    color: grey;
+  }
+  .navigation li a:hover {
+    color:#f2aa4c;
   }
   .article  h2{
+   margin-top: 1rem;
    color: white;
    font-size: 1.5rem;
    display: inline-block;
-   position: absolute;
-   top: 0.5rem;
    padding-bottom: 0.5rem;
    }
   .article p{
-  margin-top: 1rem;
+  margin-top: .5rem;
   color: grey;
   line-height: 1.7em;
   }
- .tools {
+
+ #tools {
     color: grey;
     padding: 2rem;
   }
-  .tools h2 {
+  #tools h2 {
     color: white;
     font-size: 1.5rem;
   }
-  .tools p {
+  #tools p {
     margin-top: .7rem;
     line-height: 1.7rem;
   }
@@ -112,15 +139,15 @@ section img {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-  .projects{
+  #projects{
     padding: 2rem;
     margin-top: .5rem;
   } 
-  section.projects h2 {
+  #projects h2 {
     font-size: 1.5rem;
     color: white;
   }
-  section.projects p{
+  #projects p{
     margin-top: 0.7rem;
     color: grey;
     line-height: 1.7rem;
@@ -148,17 +175,17 @@ section img {
     gap: .1rem;
   }
   footer{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
     border-top: 0.04px solid grey;
     padding-bottom: 1rem;
   }
-    footer p {
-      color: grey;
-      font-size: 1rem;
-      margin-top: 1rem;
-    }
+ footer p {
+   color: grey;
+   text-align: left;
+   font-size: .8rem;
+   margin-top: 1rem;
+ }
     
   @media all and (min-width: 800px) {
     .projects-media {
