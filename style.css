@@ -45,14 +45,15 @@ section img {
 }
 .profile p {
   margin-top: .8rem;
+  font-size: 1rem;
 }
-  p span {
-    display: inline-block;
-    text-decoration: none;
-  } 
-  span{
-    color: #f2aa4c;;
-  }
+p span {
+ display: inline-block;
+ text-decoration: none;
+} 
+span{
+  color: #f2aa4c;
+}
   
   /*about me*/
   .article{
@@ -66,7 +67,7 @@ section img {
   }
   .article h4 {
     color: #f2aa4c;
-    
+    font-size: .9rem;
     margin-top: -1rem;
     margin-bottom: .2rem;
   }
@@ -74,6 +75,7 @@ section img {
     padding: 1rem;
     color: grey;
     display: none;
+    font-size: .9rem;
     border-bottom: thin solid grey;
   }
   .navigation li {
@@ -87,17 +89,18 @@ section img {
   .navigation li a:hover {
     color:#f2aa4c;
   }
-  .article  h2{
+  .article h2{
    margin-top: 1rem;
    color: white;
-   
+   font-size: 1.5rem;
    display: inline-block;
    padding-bottom: 0.5rem;
    }
   .article p{
+  font-size: 1rem;
   margin-top: .5rem;
   color: grey;
-  line-height: 1.7em;
+  line-height: 1.7rem;
   }
 
  #tools {
@@ -106,11 +109,12 @@ section img {
   }
   #tools h2 {
     color: white;
-    
+    font-size: 1.5rem;
   }
   #tools p {
     margin-top: .7rem;
     line-height: 1.7rem;
+    font-size: 1rem;
   }
   .icons-list {
     margin-top: 1rem;
@@ -144,13 +148,14 @@ section img {
     margin-top: .5rem;
   } 
   #projects h2 {
-    
+    font-size: 1.5rem;
     color: white;
   }
   #projects p{
     margin-top: 0.7rem;
     color: grey;
     line-height: 1.7rem;
+    font-size: 1rem;
   }
   .projects-media img {
     width: 20rem;
@@ -184,6 +189,7 @@ section img {
    color: grey;
    text-align: left;
    margin-top: 1rem;
+   font-size: 1rem;
  }
     
   @media all and (min-width: 800px) {
