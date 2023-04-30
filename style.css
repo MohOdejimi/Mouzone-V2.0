@@ -66,7 +66,7 @@ section img {
   }
   .article h4 {
     color: #f2aa4c;
-    font-size: .9rem;
+    
     margin-top: -1rem;
     margin-bottom: .2rem;
   }
@@ -90,7 +90,7 @@ section img {
   .article  h2{
    margin-top: 1rem;
    color: white;
-   font-size: 1.5rem;
+   
    display: inline-block;
    padding-bottom: 0.5rem;
    }
@@ -106,7 +106,7 @@ section img {
   }
   #tools h2 {
     color: white;
-    font-size: 1.5rem;
+    
   }
   #tools p {
     margin-top: .7rem;
@@ -144,7 +144,7 @@ section img {
     margin-top: .5rem;
   } 
   #projects h2 {
-    font-size: 1.5rem;
+    
     color: white;
   }
   #projects p{
@@ -183,7 +183,6 @@ section img {
  footer p {
    color: grey;
    text-align: left;
-   font-size: .8rem;
    margin-top: 1rem;
  }
     
