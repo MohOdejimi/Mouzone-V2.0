@@ -96,7 +96,7 @@ span{
    display: inline-block;
    padding-bottom: 0.5rem;
    }
-  .menu {
+  .menu:hover {
     color: #f2aa4cff;
     cursor: pointer;
   }
