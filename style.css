@@ -96,6 +96,10 @@ span{
    display: inline-block;
    padding-bottom: 0.5rem;
    }
+  .menu {
+    color: #f2aa4cff;
+    cursor: pointer;
+  }
   .article p{
   font-size: 1rem;
   margin-top: .5rem;
