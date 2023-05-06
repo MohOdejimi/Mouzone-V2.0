@@ -204,7 +204,8 @@ span{
     .projects-media {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: .5rem;
+      gap: .4rem;
+      padding-left: 1rem;
     }
     .projects-media img {
       max-height: 18rem;
