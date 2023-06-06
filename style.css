@@ -204,15 +204,11 @@ span{
     .projects-media {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      justify-items: center;
       gap: 1rem;
     }
     .projects-media img {
       width: 100%;
       height: 25rem;
-    }
-    .projects-content p {
-     
     }
     .projects-content {
       display: flex;
@@ -223,5 +219,8 @@ span{
       border: 1px solid #008a6b;
       padding: .85rem;
       border-radius: 5px;
+    }
+    .nike {
+      margin-bottom: 1.5rem;
     }
   }
